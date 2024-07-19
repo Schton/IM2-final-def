@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background: #023047;
+    font-family: "Play", sans-serif;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+}
+
+.payment-cont {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 40%;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+input {
+    border: 1px solid white;
+    background: 0;
+    margin-bottom: 2%;
+    padding-left: 2%;
+    font-size: 16px;
+    color: white;
+}
+
+#fname,
+#lname {
+    width: 48%;
+}
+
+#lname {
+    margin-left: 20px;
+}
+
+.text-div {
+    height: 3em;
+}
+
+input#phone,
+input#address,
+input#card-name,
+input#card-number {
+    width: 100%;
+}
+
+#phone {
+    width: 100%;
+}
+
+input#country,
+input#province,
+input#city {
+    margin-left: 8px;
+    width: 32%;
+}
+
+#country {
+    width: 32%;
+}
+
+button {
+    width: 26em;
+    background: #192236;
+    color: white;
+    border: 0;
+    height: 3em;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Play", sans-serif;
+    font-size: 20px;
+}
+
+#payment-method option[disabled] {
+    display: none;
+}

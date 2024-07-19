@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    background: #023047;
+    font-family: "Play", sans-serif;
+} 
+
+/* homepage introduction */
+.order-now-container{
+    background-image: url("../images/fliped.jpg");
+    height:100%;
+    padding-top: 4em;
+}
+.order-now-container h1{
+    width: 10em;
+    margin-top: 6em;
+    margin-left: 6em;
+    font-size: 46px;
+    color: white;
+}
+.order-now-container button{
+    width: 8em;
+    height: 2em;
+    margin-top: -1em;
+    margin-left: 277px;
+    font-size: 24px;
+    border: 3px solid #ffb703;
+    background: 0;
+    color:white;
+}
+
+.order-now-container button a{
+    text-decoration: none;
+    color:white;
+}
+
+.order-now-container button:hover{
+    cursor:pointer;
+}
+
+/* sales */
+.sales-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 10em;
+}
+
+.sale-image{
+    box-shadow: 2px 2px 20px 4px rgba(0,0,0,0.5);
+}
+
+.sales-container .sale-detail{
+    margin-left: 5%;
+    background: #192236;
+    padding: 2em 2em 2em 2em;
+    box-shadow: 2px 2px 20px 4px rgba(0,0,0,0.5);
+}
+.sales-container .sale-detail h3{
+    color:white;
+    font-size: 32px;
+    width: 400px;
+}
+.sales-container .sale-detail p{
+    color:red;
+    font-size: 20px;
+}
+
+.sales-container .sale-detail button{
+    background: 0;
+    color:white;
+    width: 26em;
+    height: 3em;
+    border: 3px solid #ffb703; 
+    font-size: 20px;
+} 
+.sales-container .sale-detail button:hover{
+    cursor: pointer;
+}
+
+/* why us */
+.why-us-container{
+    margin-top: 15em;
+    background-image: url("../images/peakpx.jpg");
+    background-size: cover;
+    background-position-y: 30%;
+    padding: 2em 2em 2em 2em; 
+    height:80%;
+    margin-bottom: -5em;
+}
+.why-us-container #title{
+    color:white;
+    text-align: center;
+    font-size: 50px;
+}
+.why-us-container .why-us-content{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color:white;
+}
+
+.why-us-container .why-us-content .quality-control, .innovation, .warranty, .high-level{
+    width: 20em;
+    margin-left: 2%;
+    margin-right: 2%;
+}
